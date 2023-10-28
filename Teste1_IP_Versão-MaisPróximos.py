@@ -75,20 +75,6 @@ def maxcons(a, b, n):
 
 # 4.- a)
 
-def fatoriza(n, primos):
-    lis = []
-    for i in primos:
-        while n % i == 0:
-            lis.append(i)
-            n = n // i
-        if n == 1:
-            break
-    return lis
-
-
-
-# 4.- b)
-
 ''' A variável primelist serve para criar a lista de primos de 2 a 1000, não faz parte do teste, serve apenas para testar a função. '''
 
 primelist = []
@@ -102,7 +88,21 @@ for num in range(2, 1001):
         primelist.append(num)
     test =  True
 
-def mdcfact(fa,fb = primelist):
+def fatoriza(n, primos = primelist):
+    lis = []
+    for i in primos:
+        while n % i == 0:
+            lis.append(i)
+            n = n // i
+        if n == 1:
+            break
+    return lis
+
+
+
+# 4.- b)
+
+def mdcfact(fa, fb):
     lis = []
     for i in range(len(fa)):
         for j in range(len(fb)):
