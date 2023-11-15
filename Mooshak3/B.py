@@ -12,3 +12,8 @@ for i in range(M):
     else: restored_string += '0';
 
 print(restored_string);
+
+
+
+
+
