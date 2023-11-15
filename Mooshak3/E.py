@@ -16,3 +16,4 @@ while (som != '0'):
     som = input();
 
 print(total, minimo, maximo);
+
