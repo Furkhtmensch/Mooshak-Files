@@ -6,8 +6,6 @@ maximo: int = 0;
 
 while (som != '0'):
     contador: int = 0;
-    repeats2: bool = False;
-    repeats3: bool = False;
     total += 1;
     if (som[0] == '2'):
         maximo += 1;
