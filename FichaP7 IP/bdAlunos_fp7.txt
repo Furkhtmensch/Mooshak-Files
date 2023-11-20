@@ -1,0 +1,232 @@
+29
+Programacao Imperativa
+1
+Calculo Infinitesimal I
+1
+Introducao aos Computadores
+1
+Matematica para Ciencia de Computadores
+1
+Programacao Estruturada
+1
+Elementos de Algebra Linear
+1
+Calculo Infinitesimal II
+1
+Arquitectura de Computadores
+1
+Probabilidades e Estatistica 
+2
+Analise Infinitesimal
+2
+Estruturas de Dados e Algoritmos
+2
+Algebra
+2
+Interfaces Graficas
+2
+Sistemas de Operacao
+2
+Modelos de Computacao
+2
+Redes e Sistemas Distribuidos
+3
+Bases de Dados
+3
+Logica Computacional
+3
+Compiladores
+3
+Inteligencia Artificial
+3
+Metodos de Apoio a Decisao
+4
+Teoria da Computacao
+4
+Complementos de Inteligencia Artificial
+4
+Engenharia de Software 
+4
+Seguranca de Redes e Sistemas
+4
+Introducao a Simulacao
+3
+Aplicacoes em Rede
+4
+Complexidade
+4
+Estagio
+4
+86
+Joao Diogo Silva
+2000018001 4 1 2 27 28
+Mariana Pinto Matias
+2001018003 9 2 17 19 14 13 27 8 20 11 
+Anabela Moreira
+2001018004 5 21 22 23 28 29
+Sonia Silva
+2002020005 5 16 17 18 19 20
+Joao Pereira
+2004010099 7 8 1 2 3 4 5 6
+Manuel Magno Pereira
+2003020005 7 9 10 11 12 13 14 15
+Cristina Cal Santos
+2004020007 8 1 2 3 4 5 6 7 8
+Jose Carlos Silvado
+2004020006 8 1 2 3 4 5 6 7 8
+Josue Manuel Pereira
+2004020005 8 1 2 3 4 5 6 7 8
+Jose Joao Maria Pinto
+2004018010 1 2
+Maria Gil Matos
+2001018005 2 3 4
+Pedro Santiago
+2002019021 8 1 2 3 4 5 6 7 8
+Ana Santos Sousa
+2004020004 8 1 2 3 4 5 6 7 8
+Ana Moura
+2003018023 5 9 10 11 12 13
+Joao Carlos Silva
+2004018055 8 1 2 3 4 5 6 7 8
+Daniel Pereira
+2003018066 1 9 
+David Matias Pinto
+2002018015  9 9 10 11 12 13 14 15 16 17
+Helder Matos
+2001018014  11 2 4 6 7 9 10 15 14 16 17 20
+Joaquim Montes
+2002018002 9 9 10 11 12 13 14 15 16 17
+Paulo Gomes Costa
+2001020044 7 9 10 11 12 13 14 15
+Mario Rocha
+2001020011  11 2 4 6 7 9 10 15 14 16 17 20
+Marta Faro
+2001020016 8 7 9 11 10 12 13 15 14 
+Manuela Filipa Magalhaes
+2001020023 6  21 22 23 28 29 27
+Joao Margarido Santos
+2000019027 6  21 22 23 28 29 27
+Maria Manuela Pinto
+2001019003 7 21 22 23 28 29 27 2
+Ana Rodrigues Moreira
+2001019004 8 21 2 22 23 15 28 29 27
+Sofia Silva Egas
+2002019005 1 5
+Manuel Pereira Moniz
+2003019025 2 9 10
+Cristina Sangalho
+2004019017 3 4 5 6
+Henrique Silva
+2004019016 8 1 2 3 4 5 6 7 8
+Jose Miguel Pereira
+2004019015 8 1 2 3 4 5 6 7 8
+Jose Torres Pinto
+2004019014 8 1 2 3 4 5 6 7 8
+Maria Ana Matos
+2001019025 8 15 2 13 14 5 16 21 11
+Ana Santareno
+2004019008 8 5 6 7 8 1 2 3 4
+Ana Moura Costa
+2003019031 8 4 14 12 13 15 9 10 11 
+Joao Antero Silva
+2004019065 8 5 6 7 8 1 2 3 4
+Daniel Porto
+2003019067 8 5 14 12 13 15 9 10 11
+David Santos
+2001019015  5 16 20 17 18 19 
+Helder Joao Matos
+2001019014 6 16 20 17 18 29
+Joaquim Manuel Montes
+2002019002 11 2 11 16 20 17 18 19 8 12 15 7
+Paulo Freire
+2001019044 6 16 20 17 18 29
+Mariana Roque
+2000019011 5 16 17 18 29 15
+Marta Campos
+2000019016 1 29
+Manuel Filipe Marcos Campos
+2001019023 10 26 21 22 25 24 27 17 20 14 28
+Joao Andre Silva
+2000019001 10 2 21 22 5 24 27 7 20 14 28
+Andre Maria Pinto
+2001019030 8 16 17 18 29 15 13 7 8
+Ana Margarida Moreira
+2001019024 7 29 21 22 25 24 27 17 
+Sofia Alves Silva
+2002019043 7 16 17 18 19 25 20 24
+Manuel Carlos Peres
+2003019015 9 9 10 5 11 12 15 14 13 6
+Carla Orta Torres
+2004019003 8 1 2 5 6 3 4 7 8
+Jose Miguel Carlos
+2004019026 8 1 2 5 6 3 4 7 8
+Jorge Peres Vivaldi
+2004019035 8 1 2 5 6 3 4 7 8
+Jose Maria Magno
+2004019010 8 1 2 5 6 3 4 7 8
+Maria Alegre
+2001019075 7 27 26 29 21 22 23 20
+Ana Clemente Santos
+2004019034 8 1 2 3 4 7 8 5 6
+Marta Gabriela Moura
+2003019021 11 9 2 3 4 7 8 5 6 15 12 11
+Sebastiao Gomes
+2004019058 8 1 2 3 4 7 8 5 6
+Miguel Pereira Crespo
+2003019070 8 1 2 3 4 7 8 5 6
+David Costa Pinto
+2002019035 11 9 2 3 4 7 8 5 6 15 12 16
+Helder Luis Matos
+2001019034 11 9 2 3 4 7 18 5 6 17 12 16
+Joaquim Lorenzo
+2002019012 8 16 17 18 19 20 9 10 15
+Paulo Ortega
+2001019041 8 16 17 18 19 20 9 10 15
+Mario Ricardo Faria
+2001019101 6 21 22 23 27 28 29 
+Martim Alves
+2001019061 6 21 22 23 27 28 29 
+Manuel Antonio Castro
+2001019053 6 21 22 23 27 28 29 
+Gabriel Marques
+2000019031 6 7 19 29 21 20 24
+Margarida Lucas
+2001019037 6 2 19 15 21 20 24
+Ana Isabel Moreira
+2001019049 6 2 19 15 21 20 25
+Maria Augusta Silva
+2002019025 4 16 17 18 20
+Ana Manuela Alves
+2003019024 7 9 10 11 12 13 14 15
+Claudia Pereira Afonso
+2004019157 8 1 2 3 4 5 6 7 8
+Luisa Silva
+2004019063 8 1 2 3 4 5 6 7 8
+Luis Figueira Gomes
+2004019057 8 1 2 3 4 5 6 7 8
+Joana Lemos Faria
+2004019071 6 1 2 4 5 6 8
+Catarina Augusto
+2001019105 11 9 10 11 12 13 20 21 17 19 15 8
+Ana Claudia Santiago
+2004019104 8 1 2 7 8 3 4 5 6
+Ana Andrade Jorge
+2003019123  8 2 7 8 3 4 5 6 10
+Rui Santos Pereira
+2004019155  8 1 2 7 8 3 4 5 6
+Daniel Marques Pinto
+2003019166 11 1 2 7 8 3 4 5 6 9 10 11
+David Saraiva Fontes
+2002019115 9 16 17 18 19 20 15 14 13 11
+Helder Matos Moura
+2001019114 11 1 2 7 8 3 4 5 6 9 10 11
+Joana Luz Montes
+2002019022 9 16 17 18 19 20 15 14 13 11
+Paula Maria Costa
+2001019040 11 16 10 18 19 21 15 14 13 11 24 8 
+Elisabete Rocha
+2001019110 11 21 24 7 8 23 4 25 6 9 10 11
+Marta Afonso Torgal
+2001019160 9 29 28 27 2 25 24 23 22 21
+Marco Filipe Santareno
+2001019130 9 29 28 7 2 25 24 3 22 21
