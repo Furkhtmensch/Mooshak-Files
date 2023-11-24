@@ -26,12 +26,12 @@ def ler_dados(nomefich: str) -> tuple:
         return alunos;
     try:
         f = open(nomefich, 'r');
+        disc = ler_disciplinas();
+        alunos = ler_dados_alunos();
+        f.close();
+        return (disc, alunos);
     except IOError:
-        return "O ficheiro especificado não existe";
-    disc = ler_disciplinas();
-    alunos = ler_dados_alunos();
-    f.close();
-    return (disc, alunos);
+        print("O ficheiro especificado não existe");
 
 informacao: tuple = ler_dados("bdAlunos_fp7.txt");
 
