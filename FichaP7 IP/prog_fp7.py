@@ -25,8 +25,8 @@ def ler_dados(nomefich: str) -> tuple:
             alunos[linha[0]] = (nome, linha[1], linha[2:]);
         return alunos;
     try:
-        f = open(nomefich);
-    except:
+        f = open(nomefich, 'r');
+    except IOError:
         return "O ficheiro especificado não existe";
     disc = ler_disciplinas();
     alunos = ler_dados_alunos();
