@@ -1,0 +1,24 @@
+#!/bin/bash
+
+paths=$(echo $PATH | sed "s/:/\ /g")
+
+if [[ $# -ne 1 ]]
+then
+    echo "Número de argumentos inválido! Insira um comando apenas!"
+    exit 2
+fi
+
+for i in $paths
+do
+    ls $i | grep -q $1
+    if [[ $? -eq 0 ]]
+    then
+        echo "O comando é visível pela bash!"
+        echo "A sua localização é:"
+        echo "$i/$1"
+        exit 0
+    fi
+done
+
+echo "O comando não é visível pela bash!"
+exit 1

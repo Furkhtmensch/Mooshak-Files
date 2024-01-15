@@ -1,0 +1,33 @@
+#!/bin/bash
+
+if [[ $# -eq 3 ]]
+then
+    conteudos=$(ls $1/*.$3 | cut -d "/" -f 2)
+elif [[ $# -eq 2 ]]
+then
+    conteudos=$(ls $1)
+elif [[ $# -ne 2 ]]
+then
+    echo "Número incorrecto de argumentos! Especifique um diretório seguido de uma extensão!"
+    exit 2
+fi
+
+test -d $1
+
+if [[ $? -ne 0 ]]
+then
+    echo "O diretório especificado não existe! Insira um diretório válido!"
+    exit 1
+fi
+
+nomedir=$(ls -l -d $1 | cut -d " " -f 9)
+
+touch $nomedir.$2
+
+for i in $conteudos
+do
+    tamanho=$(ls -l $1/$i | cut -d " " -f 5)
+    echo "$tamanho/$i" >> $nomedir.$2
+done
+
+exit 0

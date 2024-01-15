@@ -1,0 +1,52 @@
+#!/bin/bash
+
+if [[ $# -ne 2 ]]
+then
+    echo "Número incorrecto de argumentos! Especifique um diretório seguido de uma extensão!"
+    exit 2
+fi
+
+test -d $1
+
+if [[ $test -ne 0 ]]
+then
+    echo "O diretório especificado não existe! Especifique um diretório existente!"
+    exit 1
+fi
+
+nomedir=$(ls -l -d $1 | cut -d " " -f 9)
+touch $nomedir.pares
+
+~/IC/Desktop/ic/./tamanhos $1 parestemp $2
+lista=$(cat $1.parestemp | sort -n)
+rm $1.parestemp
+contador="0"
+
+for i in $lista
+do
+    contador=$(($contador + 1))
+    if [[ $contador -eq 1 ]]
+    then
+        temp="$(echo $i | cut -d '/' -f 2)"
+        tempbytes=$(echo $i | cut -d "/" -f 1)
+    elif [[ $(echo $i | cut -d "/" -f 1) -eq $tempbytes ]]
+    then
+        temp="$temp $(echo $i | cut -d '/' -f 2)"
+        echo $temp >> $nomedir.pares
+        temp=""
+        tempbytes=""
+        contador="0"
+    else
+        contador="1"
+        echo $temp >> $nomedir.pares
+        temp="$(echo $i | cut -d '/' -f 2)"
+        tempbytes=$(echo $i | cut -d "/" -f 1)
+    fi
+done
+
+if [[ $contador -eq 1 ]]
+then
+    echo $temp >> $nomedir.pares
+fi
+
+exit 0

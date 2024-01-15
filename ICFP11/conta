@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sum="0"
+
+for i in $@
+do
+    test -d $i
+    if [[ $? -eq 0 ]]
+    then
+        sum=$(($sum + 1))
+    fi
+done
+
+echo "$sum"

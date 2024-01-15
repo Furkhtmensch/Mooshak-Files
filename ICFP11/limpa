@@ -1,0 +1,25 @@
+#!/bin/bash
+
+test -d ~/IC/Desktop/ic/shell/LIXO
+
+if [[ $? -eq 1 ]]
+then
+    mkdir ~/IC/Desktop/ic/shell/LIXO
+fi
+
+bool="0"
+
+for i in $@
+do
+    if [[ $i = "-f" ]]
+    then
+        bool="1"
+    else
+        mv $i ~/IC/Desktop/ic/shell/LIXO
+    fi
+done
+
+if [[ $bool -eq 1 ]]
+then
+    rm -r ~/IC/Desktop/ic/shell/LIXO/*
+fi

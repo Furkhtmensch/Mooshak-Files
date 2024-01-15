@@ -1,0 +1,21 @@
+#!/bin/bash
+
+nomedir=$(ls -l -d $1 | cut -d " " -f 9)
+data=$(ls -l -d $1 | cut -d " " -f 6-8)
+
+echo "# FMF info" > $nomedir.fmf
+echo "$data" >> $nomedir.fmf
+echo "$nomedir" >> $nomedir.fmf
+
+ficheiros=$(ls $1)
+contador="0"
+
+for i in $ficheiros
+do
+    nomefich="$(ls -l $1/$i | cut -d "/" -f 2)\t$(file $1/$i)"
+    echo -e $nomefich >> $nomedir.fmf
+    contador=$(($contador + 1))
+done
+
+echo "# FMF $contador" >> $nomedir.fmf
+

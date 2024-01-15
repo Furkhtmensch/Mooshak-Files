@@ -1,0 +1,19 @@
+#!/bin/bash
+
+tar -cf $2/$1.tgz $1
+vari=$(ls -c $1)
+counter="0"
+
+for i in $vari
+do
+    counter=$(($counter + 1))
+    cp $1/$i $2
+    temp=$(ls -l $1/$i | cut -d ' ' -f 6-8 | tr -d ' :')
+    mv $2/$i $2/$i.$temp
+    if [[ $counter -eq 2 ]]
+    then
+        break
+    fi
+done
+
+
